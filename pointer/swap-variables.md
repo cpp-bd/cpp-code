@@ -12,13 +12,11 @@ void swap(char* a, char* b)
 
 int main(void)
 {
-
     char a = 'x';
     char b = 'y';
-
-
+    
     printf("a is now %c and b is now %c\n", a, b); 
-
+    
     swap(&a, &b);
 
     printf("a is now %c and b is now %c\n", a, b); 
